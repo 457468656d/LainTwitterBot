@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LainTwitterBot", "LainTwitterBot\LainTwitterBot.csproj", "{9BBCAEBF-3FD5-4CD4-B003-7898D11ED64A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9BBCAEBF-3FD5-4CD4-B003-7898D11ED64A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BBCAEBF-3FD5-4CD4-B003-7898D11ED64A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BBCAEBF-3FD5-4CD4-B003-7898D11ED64A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BBCAEBF-3FD5-4CD4-B003-7898D11ED64A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A5A9FEDB-C9E4-4770-8406-0210DDC2C657}
+	EndGlobalSection
+EndGlobal
