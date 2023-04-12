@@ -9,7 +9,6 @@ namespace LainTwitterBot
     {
         static async Task Main(string[] args)
         {
-
             StdSchedulerFactory factory = new StdSchedulerFactory();
             IScheduler scheduler = await factory.GetScheduler();
 
@@ -19,13 +18,11 @@ namespace LainTwitterBot
                 .WithIdentity("BotExecution", "Bot")
                 .Build();
 
-
             ITrigger trigger = TriggerBuilder.Create()
                 .WithIdentity("DailyTrigger", "Bot")
                 .StartNow()
                 .WithSimpleSchedule(x => x
-                    //.WithIntervalInSeconds(10)
-                    .WithIntervalInHours(1)
+                    .WithIntervalInHours(24)
                     .RepeatForever())
                 .Build();
 
