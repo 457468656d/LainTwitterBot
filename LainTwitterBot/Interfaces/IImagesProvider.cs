@@ -8,6 +8,6 @@ namespace LainTwitterBot.Interfaces
 {
     public interface IImagesProvider
     {
-        byte[] GetRandomImageAsByteArray();
+        byte[] GetNextImageAsByteArray();
     }
 }
